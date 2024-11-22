@@ -4,3 +4,11 @@ def area(a, b):
 
 def perimeter(a, b):
     return 2 * (a + b)
+
+
+def diagonal(a, b):
+    return (a ** 2 + b ** 2) ** 0.5
+
+
+def is_square(a, b):
+    return a == b
